@@ -1,0 +1,43 @@
+.currentcard{
+  width: 32%;
+  background-color: #282b2f;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
+}
+.currentcard-image {
+  width: 35%;
+}
+.currentcard-image img{
+  width: 100%;
+}
+.currentcard-information .perinfo-top {
+  color: white;
+  padding: 20px 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+.currentcard-information .perinfo-top p{
+  color: #7453fc;
+}
+.currentcard-information .perinfo-bottom{
+  color: white;
+}
+.currentcard-information .perinfo-bottom .bid{
+  font-size: 20px;
+}
+.currentcard-information .perinfo-bottom .bid span, .currentcard-information .perinfo-bottom>p{
+  color: #7453fc;
+}
+@media (max-width:992px) {
+  .currentcard{
+    width: 48%;
+  }
+}
+@media (max-width:767px) {
+  .currentcard{
+    width: 100%;
+  }
+}

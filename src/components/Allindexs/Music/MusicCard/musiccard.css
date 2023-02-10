@@ -1,0 +1,64 @@
+.muisccard{
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  width: 40%;
+  background-color:#282b2f;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.muisccard .musiccard-image{
+  width: 40%;
+  height: 100%;
+}
+.musiccard-information{
+  width: 40%;
+}
+.muisccard .musiccard-image img{
+  width: 100%;
+  border-radius: 15px;
+  height: 100%;
+}
+.musiccard-information {
+  width: 55%;
+}
+.top-information{
+  padding: 20px 03px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid ;
+}
+.musiccard-information h1{
+  font-size: 22px;
+}
+.musiccard-information .per{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+.musiccard-information .per .per-image img{
+  width: 100%;
+  border-radius: 50%;
+}
+.musiccard-information .per .per-info p{
+  color: #7453fc;
+}
+.num-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.num-info h5{
+font-size: 18px;
+margin-bottom: 10px;
+}
+.num-info h6{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+@media (max-width:767px) {
+  .muisccard{
+    width: 100%;
+  }
+}

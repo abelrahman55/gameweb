@@ -1,0 +1,103 @@
+.home{
+  position: relative;
+  padding: 100px 50px;
+  background-image: url("../../../images/banner-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.home .home-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.home .home-container >div{
+  width: 40%;
+}
+.home .home-container .home-text{
+  color: white;
+}
+.home .home-container .home-text h3{
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.home .home-container .home-text h2{
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.home .home-container .home-text p{
+  text-transform: capitalize;
+  font-size: 19px;
+  margin-bottom: 25px;
+}
+.home .home-image img{
+  width: 100%;
+}
+.home .home-container .home-text .btns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .home-container .home-text .btns button{
+  position: relative;
+  padding: 15px 25px;
+  border-radius: 25px;
+  font-size: 17px;
+}
+.home .home-container .home-text .btns button:first-child{
+background-color: transparent;
+color: white;
+
+border: 1px solid #7453fc;
+}
+.home .home-container .home-text .btns button:last-child{
+background-color: #7453fc;
+color: white;
+border: none;
+}
+.home .home-container .home-text .btns button::after{
+content: "";
+position: absolute;
+width: 100px;
+bottom: 0%;
+background-color: white;
+left: 50%;
+transform: translateX(-50%);
+height: 3px;
+}
+@media (max-width:992px) {
+  .home{
+    height: 130vh;
+  }
+  .home .home-container {
+    margin-top: 130px;
+    padding:130px 80px;
+    flex-direction: column;
+  }
+  .home .home-container >div{
+    width: 90%;
+  }
+}
+@media (max-width:767px) {
+  .home{
+    padding: 20px;
+    background-position: 50% 40%;
+  }
+  .home .home-container {
+    margin-top: 130px;
+    padding: 0px;
+    flex-direction: column;
+  }
+  .home .home-container >div{
+    width: 100%;
+  }
+  .home .home-container .home-text .btns button{
+    padding: 5px;
+  }
+}

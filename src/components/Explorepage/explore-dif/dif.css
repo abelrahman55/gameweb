@@ -1,0 +1,14 @@
+.dif{
+  padding: 140px 0px 0px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.dif h3{
+  font-size: 25px;
+}
+.dif h2{
+  font-size: 60px;
+}

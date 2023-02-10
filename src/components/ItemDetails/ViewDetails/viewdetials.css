@@ -1,0 +1,111 @@
+.viewdetails{
+  padding: 50px 50px;
+}
+.viewdetails .viewdetails-header{
+  width: 650px;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.viewdetails .viewdetails-header h1{
+  color: white;
+}
+.viewdetails .viewdetails-header h1 span{
+  color: #7453fc;
+}
+
+.viewdetails-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.viewdetails-content .viewdetails-content-image {
+width: 53%;
+}
+.viewdetails-content .viewdetails-content-image img{
+  width: 100%;
+  border-radius: 25px;
+}
+.viewdetails-content .viewdetails-content-information{
+  width: 43%;
+  color: white;
+}
+.viewdetails-content .viewdetails-content-information h3{
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.viewdetails-content .viewdetails-content-information .per{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.viewdetails-content .viewdetails-content-information .per img{
+  width: 60px;
+  border-radius: 50%;
+}
+.viewdetails-content .viewdetails-content-information >p{
+  margin-bottom: 40px;
+}
+.about-person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.about-person h5{
+  margin-bottom: 3px;
+}
+.about-person p{
+  color: #7453fc;
+  font-size: 20px;
+}
+.about-person p:first-of-type{
+  margin-bottom: 10px;
+}
+.place {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.place  input{
+  background-color: transparent;
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid #7453fc;
+}
+.place button{
+  background-color: #7453fc;
+  padding: 10px 20px ;
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
+@media (max-width:767px) {
+  .viewdetails{
+    padding: 50px 0px;
+  }
+}
+@media (max-width:992px) {
+  .viewdetails{
+    padding: 50px 50px;
+  }
+  .viewdetails-content{
+    flex-direction: column; 
+  }
+  .viewdetails-content .viewdetails-content-image{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .viewdetails-content .viewdetails-content-information{
+    width: 100%;
+  }
+}
+@media (max-width:767px) {
+  .viewdetails{
+    padding: 50px 0px;
+  }
+
+}

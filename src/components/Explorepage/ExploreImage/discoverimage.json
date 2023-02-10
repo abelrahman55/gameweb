@@ -1,0 +1,32 @@
+[
+  {
+    "image":"../../../images/discover-01.jpg",
+    "title":"genesis club by abdo",
+    "name":"abdo",
+    "image2":"../../../images/author.jpg"
+  },
+  {
+    "image":"../../../images/discover-02.jpg",
+    "title":"genesis club by abdo",
+    "name":"amir",
+    "image2":"../../../images/author.jpg"
+  },
+  {
+    "image":"../../../images/discover-03.jpg",
+    "title":"genesis club by abdo",
+    "name":"ali",
+    "image2":"../../../images/author.jpg"
+  },
+  {
+    "image":"../../../images/discover-04.jpg",
+    "title":"genesis club by abdo",
+    "name":"omar",
+    "image2":"../../../images/author.jpg"
+  },
+  {
+    "image":"../../../images/discover-05.jpg",
+    "title":"genesis club by abdo",
+    "name":"amr",
+    "image2":"../../../images/author.jpg"
+  }
+]

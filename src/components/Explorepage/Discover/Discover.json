@@ -1,0 +1,66 @@
+[
+  {
+    "id":1,
+    "title":"Pixel Sand Box",
+    "big_image":"../../../images/discover_01.jpg",
+    "current_bid":8.16,
+    "current_type":"ETH",
+    "end":"25th Nov"
+  },
+  {
+    "id":2,
+    "title":"Another Half Ape",
+    "big_image":"../../../images/discover_02.jpg",
+    "current_bid":8.16,
+    "current_type":"ETH",
+    "end":"25th Nov"
+  },
+  {
+    "id":3,
+    "title":"Invisible NFT Land",
+    "big_image":"../../../images/discover_03.jpg",
+    "current_bid":5.15,
+    "current_type":"ETH",
+    "end":"26th Nov"
+  },
+  {
+    "id":4,
+    "title":"His Other Half",
+    "big_image":"../../../images/discover_04.jpg",
+    "current_bid":1.16,
+    "current_type":"ETH",
+    "end":"20th Nov"
+  },
+  {
+    "id":5,
+    "title":"Mutant Ape Bored",
+    "big_image":"../../../images/discover_01.jpg",
+    "current_bid":4.16,
+    "current_type":"ETH",
+    "end":"15th Nov"
+  },
+  {
+    "id":6,
+    "title":"His Other Half",
+    "big_image":"../../../images/discover_02.jpg",
+    "current_bid":2.16,
+    "current_type":"ETH",
+    "end":"27th Nov"
+  },
+  {
+    "id":7,
+    "title":"His Other Half",
+    "big_image":"../../../images/discover_03.jpg",
+    "current_bid":80.76,
+    "current_type":"ETH",
+    "end":"2th Nov"
+  },
+  {
+    "id":8,
+    "title":"His Other Half",
+    "big_image":"../../../images/discover_04.jpg",
+    "current_bid":88.16,
+    "current_type":"ETH",
+    "end":"8th Nov"
+  }
+]

@@ -1,0 +1,17 @@
+.sel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.sel-info-image img{
+  width: 100%;
+  border-radius: 50%;
+}
+.sel-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}

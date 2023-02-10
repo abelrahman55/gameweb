@@ -1,0 +1,69 @@
+.itemdif{
+  position: relative;
+  padding: 50px 0px 30px;
+  height: 60vh;
+  text-align: center;
+  background-image: url("../../../images/heading-bg.jpg");
+}
+.itemdif .itemdif-content{
+  position: absolute;
+  left: 50%;
+  bottom: 70px;
+  transform: translateX(-50%);
+  color: white;
+}
+.itemdif h3{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.itemdif h1{
+  font-weight: bold;
+  margin-bottom:7px;
+  font-size: 35px;
+}
+.itemdif p{
+  margin-bottom: 10px;
+}
+.btns{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.btns button{
+  color: white;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.btns button::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1.5px;
+}
+.btns button:first-of-type{
+  background-color:#7453fc;
+  border: none;
+
+}
+.btns button:last-of-type{
+  background-color: transparent;
+  border: 1px solid #7453fc;
+}
+@media (max-width:992px) {
+  .itemdif{
+    height: 80vh;
+  }
+  .itemdif .itemdif-content{
+    width: 100%;
+  }
+  .btns{
+    justify-content: center;
+  }
+}

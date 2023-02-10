@@ -1,0 +1,32 @@
+.browse{
+  padding: 50px;
+}
+
+.browse .browse-container .head{
+width: 500px;
+max-width: 100%;
+margin: 40px auto;
+}
+.browse .browse-container .browse-icons{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.browse .browse-container .browse-icons .icon{
+  padding: 25px;
+  background-color: #23232b;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.browse .browse-container .browse-icons .icon img{
+  width: 100%;
+}
+.browse .browse-container .browse-icons .icon h4{
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+}

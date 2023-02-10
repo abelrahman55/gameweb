@@ -1,0 +1,79 @@
+.form{
+  padding: 50px;
+}
+.form-content{
+  background-color:#37393c;
+  width: 100%;
+  border-radius: 25px;
+  padding: 40px 20px;
+}
+.form .fieldsets-top{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form  .fieldset{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+  margin-bottom: 25px;
+}
+.form  .fieldset h4{
+  color: white;
+  text-transform: capitalize;
+}
+.form  .fieldset input{
+  border: 1px solid white;
+  height: 60px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 35px;
+  color: white;
+}
+.form .fieldsets-center {
+  display: flex;
+  justify-content: space-between;
+}
+.form .fieldsets-center .fieldset{
+  width: 47%;
+}
+
+.uploadfile{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.uploadfile >input{
+  width: 70%;
+  background-color: #7453fc;
+  border-radius: 25px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.upfile-fieldset h4{
+  color: white;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+@media (max-width:992px) {
+  .form .form-content >div{
+    flex-direction: column;
+  }
+  .form .form-content >div >div{
+    width: 100%;
+  }
+  .form .fieldsets-center .fieldset{
+    width: 100%;
+  }
+  .uploadfile >input{
+    width: 100%;
+    margin-top: 10px;
+    height: 60px;
+  }
+  .form{
+    padding: 50px 0px;
+  }
+}

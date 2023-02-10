@@ -1,0 +1,30 @@
+.currentbiddings{
+  padding: 50px;
+}
+.currentbiddings-header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.currentbiddings-header h1{
+  background-color:#7453fc;
+  padding: 5px 8px;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+}
+.currentbiddings-header select{
+  background-color: transparent;
+  color: white;
+  width: 150px;
+  border: 1px solid #7453fc;
+  border-radius: 30px;
+  padding: 0px 8px;
+}
+.currentbiddings-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}

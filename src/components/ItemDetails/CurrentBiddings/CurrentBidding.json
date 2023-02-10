@@ -1,0 +1,50 @@
+[
+  {
+    "image":"../../../images/current-01.jpg",
+    "name":"David Walker",
+    "site":"@davidwalker",
+    "bid":"0.06 ETH",
+    "date":"24/07/2022, ",
+    "time":"22.00"
+  },
+  {
+    "image":"../../../images/current-01.jpg",
+    "name":"Abdelrahman Ali",
+    "site":"@abdoali",
+    "bid":"0.06 ETH",
+    "date":"16/17/2022, ",
+    "time":"15.00"
+  },
+  {
+    "image":"../../../images/current-01.jpg",
+    "name":"Amr Sanad",
+    "site":"@amrsanad",
+    "bid":"0.06 ETH",
+    "date":"14/07/2022, ",
+    "time":"21.00"
+  },
+  {
+    "image":"../../../images/current-01.jpg",
+    "name":"Mostafa",
+    "site":"@mostafa",
+    "bid":"0.06 ETH",
+    "date":"20/07/2022, ",
+    "time":"20.00"
+  },
+  {
+    "image":"../../../images/current-01.jpg",
+    "name":"David Walker",
+    "site":"@davidwalker",
+    "bid":"0.06 ETH",
+    "date":"12/08/2022, ",
+    "time":"10.00"
+  },
+  {
+    "image":"../../../images/current-01.jpg",
+    "name":"David Walker",
+    "site":"@davidwalker",
+    "bid":"0.16 ETH",
+    "date":"4/07/2022, ",
+    "time":"2.00"
+  }
+]

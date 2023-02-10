@@ -1,0 +1,72 @@
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  position: relative;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  width: 250px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swipper-container{
+  padding: 50px;
+}
+.swipper-item img{
+  width: 100%;
+  border-radius: 25px;
+}
+.swipper-information{
+  padding: 20px;
+}
+.swipper-information >h1{
+font-size: 30px;
+padding: 20px 0px;
+border-bottom: 1px solid #4554;
+margin-bottom: 7px;
+}
+.swipper-information .swipper-info{
+  position: relative;
+}
+.swipper-information .swipper-info >p{
+  text-transform: capitalize;
+  text-align: left;
+}
+.swipper-information .swipper-info .inf{
+  text-align: left;
+  position: relative;
+  padding: 35px 0px;
+}
+
+.swipper-information .swipper-info .inf h3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.swiper-slide button{
+  background-color: #7453fc;
+  color: white;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 35px;
+  position: absolute;
+  bottom: 0px;
+}
